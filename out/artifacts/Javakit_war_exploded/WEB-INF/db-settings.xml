@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+       ">
+
+       <bean id="propertyConfigurer"
+             class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+              <property name="locations" value="/WEB-INF/jdbc.properties"/>
+       </bean>
+
+       <!-- jdbcDataSource -->
+       <bean id="jdbcDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource " >
+              <property name="driverClassName" value="${jdbc.driverClassName}"/>
+              <property name="url" value="${jdbc.databaseurl}"/>
+              <property name="username" value="${jdbc.username}"/>
+              <property name="password" value="${jdbc.password}" />
+       </bean>
+
+       <bean id="JNDI-DataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+              <property name="jndiName" value="java:comp/env/JNDI_DB"/>
+       </bean>
+
+
+</beans>
