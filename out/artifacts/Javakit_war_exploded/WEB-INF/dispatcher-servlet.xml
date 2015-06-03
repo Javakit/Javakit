@@ -50,4 +50,8 @@ This handler will forward all requests to the default Servlet. Therefore it is i
        </bean>
 
 
+    <import resource="i18nMessageSource.xml"/>
+
+    <import resource="i18nLocaleResolver.xml"/>
+
 </beans>

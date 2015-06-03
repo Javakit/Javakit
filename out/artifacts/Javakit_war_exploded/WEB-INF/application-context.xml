@@ -16,4 +16,7 @@
            net.compitek.javakit.database,
            net.compitek.javakit.service"/>
 
+
+    <import resource="i18nMessageSource.xml"/>
+
 </beans>
