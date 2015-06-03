@@ -1,5 +1,6 @@
 package net.compitek.javakit.web.controller;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
@@ -12,6 +13,8 @@ import java.util.Map;
 
 @Controller
 public class SimpleController {
+
+    private static final Logger log = Logger.getLogger(SimpleController.class);
 
     @RequestMapping(value={"/","/hello"})
     public String Hello(HttpServletRequest request){
