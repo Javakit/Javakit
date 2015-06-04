@@ -39,6 +39,9 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="Javakit/web/Web" />
+      <element id="directory" name="META-INF">
+        <element id="dir-copy" path="$PROJECT_DIR$/META-INF" />
+      </element>
     </root>
   </artifact>
 </component>

@@ -24,9 +24,64 @@
               <property name="password" value="${jdbc.password}" />
        </bean>
 
-       <bean id="JNDI-DataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+       <bean id="JNDIDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
               <property name="jndiName" value="java:comp/env/JNDI_DB"/>
        </bean>
 
+
+
+       <!-- set hibernate as JPA (LocalContainer EMF Bean) -->
+       <!--
+       jpa-without-persistance.xml
+       http://docs.spring.io/spring/docs/3.2.10.RELEASE/spring-framework-reference/htmlsingle/#new-in-3.1-jpa-without-xml
+       -->
+       <!--
+       Usually JPA defines a persistence unit through the META-INF/persistence.xml
+       file. Starting with Spring 3.1, the persistence.xml is no longer necessary –
+       the LocalContainerEntityManagerFactoryBean now supports a ‘packagesToScan’
+       property where the packages to scan for @Entity classes can be specified.
+       -->
+       <bean id="EMFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+              <property name="dataSource" ref="JNDIDataSource" />
+              <property name="packagesToScan" value="net.compitek.javakit.database.domain" />
+              <property name="jpaVendorAdapter">
+                     <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
+              </property>
+              <property name="jpaProperties">
+                     <map>
+                            <entry key="hibernate.hbm2ddl.auto" value="create"/>
+                            <entry key="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+                            <entry key="hibernate.show_sql" value="true"/>
+                            <entry key="hibernate.format_sql" value="true"/>
+                            <entry key="hibernate.id.new_generator_mappings" value="true" />
+                     </map>
+              </property>
+       </bean>
+
+       <bean id="jpaTxManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+              <property name="entityManagerFactory" ref="EMFactory" />
+       </bean>
+
+       <!--You can omit the transaction-manager attribute in the <tx:annotation-driven/> tag
+if the bean name of the PlatformTransactionManager that
+you want to wire in has the name transactionManager.-->
+       <!--
+       @EnableTransactionManagement and <tx:annotation-driven/> only looks for @Transactional on beans
+       in the same application context they are defined in. This means that, if you put annotation driven
+        configuration in a WebApplicationContext for a DispatcherServlet, it only checks for @Transactional
+        beans in your controllers, and not your services.
+        See Section 17.2, “The DispatcherServlet” for more information.
+       -->
+       <tx:annotation-driven transaction-manager="jpaTxManager" />
+
+       <!-- docs.spring.io/spring/docs/4.0.6.RELEASE/spring-framework-reference/htmlsingle/#orm-exception-translation  -->
+       <!-- Exception translation bean post processor -->
+       <!--
+        The postprocessor automatically looks for all exception translators
+        (implementations of the PersistenceExceptionTranslator interface) and advises all beans marked
+        with the @Repository annotation so that the discovered translators can intercept and apply
+        the appropriate translation on the thrown exceptions.
+       -->
+       <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
 
 </beans>

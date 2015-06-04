@@ -10,6 +10,7 @@
     <properties>
         <org.springframework.version>4.1.6.RELEASE</org.springframework.version>
         <jstl-version>1.2</jstl-version>
+        <org.hibernate.version>4.3.7.Final</org.hibernate.version>
     </properties>
 
     <repositories>
@@ -29,6 +30,24 @@
     </repositories>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${org.hibernate.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${org.hibernate.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
