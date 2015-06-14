@@ -49,11 +49,10 @@
               </property>
               <property name="jpaProperties">
                      <map>
-                            <entry key="hibernate.hbm2ddl.auto" value="create"/>
+                            <entry key="hibernate.hbm2ddl.auto" value="update"/>
                             <entry key="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
                             <entry key="hibernate.show_sql" value="true"/>
                             <entry key="hibernate.format_sql" value="true"/>
-                            <entry key="hibernate.id.new_generator_mappings" value="true" />
                      </map>
               </property>
        </bean>

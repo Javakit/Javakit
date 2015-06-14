@@ -24,4 +24,12 @@ public class UserService extends AbstractEntityService<Long,User, UserDao> {
     protected Class<User> getEntityClass() {
         return User.class;
     }
+
+    public boolean isLoginFree(String login4test) {
+        return userDao.isLoginFree(login4test);
+    }
+
+    public User findByLogin(String username){
+        return userDao.findByLogin(username);
+    }
 }

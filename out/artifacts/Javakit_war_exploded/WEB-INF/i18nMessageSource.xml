@@ -9,7 +9,9 @@
               <property name="defaultEncoding" value="UTF-8"/>
               <property name="basenames">
                      <list>
-                            <value>commonMessages</value>
+                         <value>commonMessages</value>
+                         <value>pageTitles</value>
+                         <value>forms</value>
                      </list>
               </property>
        </bean>

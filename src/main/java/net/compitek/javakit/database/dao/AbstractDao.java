@@ -1,6 +1,7 @@
 package net.compitek.javakit.database.dao;
 
 import net.compitek.javakit.database.domain.IPersistenceEntity;
+import org.apache.log4j.Logger;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -9,11 +10,14 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import java.io.Serializable;
 import java.util.List;
+import org.apache.log4j.Logger;
 
 /**
  * Created by Evgene on 04.06.2015.
  */
 public abstract class AbstractDao<ID extends Serializable, PEntity extends IPersistenceEntity<ID>> {
+
+    private static final Logger log = Logger.getLogger(AbstractDao.class);
 
     @PersistenceContext
     protected EntityManager entityManager;
@@ -26,7 +30,7 @@ public abstract class AbstractDao<ID extends Serializable, PEntity extends IPers
         }
         catch (Exception e)
         {
-            System.out.println("DefaultDao.create error:" + e.getMessage());
+            log.error("AbstractDao.create:",e);
             return false;
         }
     }

@@ -2,6 +2,7 @@ package net.compitek.javakit.database.domain;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
+import javax.validation.constraints.Size;
 
 /**
  * Created by Evgene on 04.06.2015.
@@ -9,7 +10,8 @@ import javax.persistence.MappedSuperclass;
 @MappedSuperclass
 public abstract class NamedPersistenceEntity extends PersistenceEntity implements INamedPersistenceEntity<Long> {
 
-    @Column(name = "name",nullable = false)
+    @Size(min = 1, max = 255)
+    @Column(name = "name",nullable =false, length = 255 )
     protected String name;
 
     public String getName() {

@@ -29,7 +29,7 @@
        <!-- 16.16.6 Configuring Serving of Resources -->
        <!-- Configures a handler for serving static resources
          -->
-       <mvc:resources mapping="/resources/**" location="/resources/"/>
+       <mvc:resources mapping="/**" location="/resources/"/>
 
        <!--http://docs.spring.io/spring/docs/4.1.6.RELEASE/spring-framework-reference/htmlsingle/#mvc-default-servlet-handler
 This handler will forward all requests to the default Servlet. Therefore it is important that it remains last in the order of all other URL HandlerMappings.

@@ -17,7 +17,8 @@ public class SimpleController {
     private static final Logger log = Logger.getLogger(SimpleController.class);
 
     @RequestMapping(value={"/","/hello"})
-    public String Hello(HttpServletRequest request){
+    public String Hello(HttpServletRequest request,Map<String, Object> map){
+        //map.put("message","hello!");
         return "hello";
     }
 
@@ -32,4 +33,6 @@ public class SimpleController {
         map.put("DeleteConfirmMessage",messageSource.getMessage("DeleteConfirm",null,localeResolver.resolveLocale(request)));
         return "i18n";
     }
+
+
 }
