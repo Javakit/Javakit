@@ -1,8 +1,10 @@
 package net.compitek.javakit.web.controller;
 
+import net.compitek.javakit.security.UserDetailsImpl;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.LocaleResolver;
@@ -19,6 +21,14 @@ public class SimpleController {
     @RequestMapping(value={"/","/hello"})
     public String Hello(HttpServletRequest request,Map<String, Object> map){
         //map.put("message","hello!");
+        try {
+            Object details = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            map.put("userDetails", (UserDetailsImpl) details);
+        }
+        catch (Exception e){
+            log.info("AUTHENTICATED_ANONYMOUSLY");
+        }
+
         return "hello";
     }
 

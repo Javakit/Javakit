@@ -25,7 +25,9 @@ public class User extends NamedPersistenceEntity {
             fetch = FetchType.LAZY,
             mappedBy = "user"
     )
-    private List<UserRole> UserRoleList = new ArrayList<UserRole>();
+    private List<UserRole> userRoleList = new ArrayList<UserRole>();
+
+
 
     @Size(max = 255)
     @Column(name = "login", length = 255 )
@@ -42,13 +44,12 @@ public class User extends NamedPersistenceEntity {
     private String email;
 
     public List<UserRole> getUserRoleList() {
-        return UserRoleList;
+        return userRoleList;
     }
 
     public void setUserRoleList(List<UserRole> userRoleList) {
-        UserRoleList = userRoleList;
+        this.userRoleList = userRoleList;
     }
-
     public Company getCompany() {
         return company;
     }

@@ -16,10 +16,12 @@
 
     <context:component-scan base-package="
            net.compitek.javakit.database,
-           net.compitek.javakit.service"/>
+           net.compitek.javakit.service,
+           net.compitek.javakit.security"/>
 
     <import resource="i18nMessageSource.xml"/>
 
+    <import resource="security.xml"/>
 
     <import resource="db-settings.xml"/>
 

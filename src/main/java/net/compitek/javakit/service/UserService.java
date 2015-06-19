@@ -29,7 +29,7 @@ public class UserService extends AbstractEntityService<Long,User, UserDao> {
         return userDao.isLoginFree(login4test);
     }
 
-    public User findByLogin(String username){
-        return userDao.findByLogin(username);
+    public User findByLogin(String login){
+        return userDao.findByLogin(login);
     }
 }

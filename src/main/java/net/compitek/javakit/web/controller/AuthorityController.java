@@ -28,7 +28,7 @@ public class AuthorityController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/isLoginFree")// ajax от jquery validation plugin
+    @RequestMapping("/isLoginFree")// ajax пїЅпїЅ jquery validation plugin
     @ResponseBody
     public String checkIsFree(@RequestParam String login4test){
         return userService.isLoginFree(login4test)?"true":"false";
@@ -79,4 +79,11 @@ public class AuthorityController {
             return "/auth/signup";
         }
     }
+
+    @RequestMapping("/login")
+    public String login() { return "auth/login"; }
+
+    @RequestMapping("/error403")
+    public String error403() { return "auth/error403"; }
+
 }

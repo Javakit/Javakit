@@ -24,10 +24,10 @@ public class UserDao extends AbstractDao<Long,User>{
     }
 
     @Transactional(readOnly = true, propagation = Propagation.NEVER)
-    public User findByLogin(String username) {
+    public User findByLogin(String login) {
 
-        TypedQuery<User> query = entityManager.createQuery("SELECT u from User u where u.username like :username ",User.class);
-        query.setParameter("username",username);
+        TypedQuery<User> query = entityManager.createQuery("SELECT u from User u where u.login like :login ",User.class);
+        query.setParameter("login",login);
         try {
             User user =  query.getSingleResult();
             return user;
