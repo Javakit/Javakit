@@ -6,7 +6,9 @@ import net.compitek.javakit.database.dao.RoleDao;
 import net.compitek.javakit.database.domain.Role;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class RoleService extends AbstractEntityService<Long, Role, RoleDao> {
     private static final Logger log = Logger.getLogger(RoleService.class);
 

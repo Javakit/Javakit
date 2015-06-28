@@ -6,7 +6,9 @@ import net.compitek.javakit.database.dao.PermissionDao;
 import net.compitek.javakit.database.domain.Permission;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PermissionService extends AbstractEntityService<Long, Permission, PermissionDao>  {
     private static final Logger log = Logger.getLogger(PermissionService.class);
 
