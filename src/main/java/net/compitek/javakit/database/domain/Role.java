@@ -14,8 +14,8 @@ import java.util.List;
 public class Role extends NamedPersistenceEntity {
     private static final Logger log = Logger.getLogger(Role.class);
 
-    @OneToMany( mappedBy = "role" )
-    private List<UserRole> userRoleSet;
+    @OneToMany( mappedBy = "role",cascade = CascadeType.ALL )
+    private List<UserRole> userRoleList;
 
     @ManyToMany(
             cascade={CascadeType.PERSIST, CascadeType.MERGE}
@@ -27,12 +27,12 @@ public class Role extends NamedPersistenceEntity {
     )
     private List<Permission> permissionList = new ArrayList<Permission>();
 
-    public List<UserRole> getUserRoleSet() {
-        return userRoleSet;
+    public List<UserRole> getUserRoleList() {
+        return userRoleList;
     }
 
-    public void setUserRoleSet(List<UserRole> userRoleSet) {
-        this.userRoleSet = userRoleSet;
+    public void setUserRoleList(List<UserRole> userRoleList) {
+        this.userRoleList = userRoleList;
     }
 
     public List<Permission> getPermissionList() {

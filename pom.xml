@@ -178,6 +178,13 @@
             <artifactId>spring-security-config</artifactId>
             <version>${org.springframework.security.version}</version>
         </dependency>
-        
+
+        <!--http://docs.spring.io/spring-security/site/docs/4.0.1.RELEASE/reference/htmlsingle/#taglibs-->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-taglibs</artifactId>
+            <version>${org.springframework.security.version}</version>
+        </dependency>
+
     </dependencies>
 </project>

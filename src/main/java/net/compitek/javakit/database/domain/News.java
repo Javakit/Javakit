@@ -12,7 +12,7 @@ import javax.persistence.*;
 public class News extends NamedPersistenceEntity {
     private static final Logger log = Logger.getLogger(News.class);
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.LAZY,cascade = CascadeType.DETACH)
     @JoinColumn(name = "userid")
     private User user;
 

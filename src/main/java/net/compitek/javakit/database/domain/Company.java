@@ -4,10 +4,7 @@ package net.compitek.javakit.database.domain;/**
 
 import org.apache.log4j.Logger;
 
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +15,8 @@ public class Company extends NamedPersistenceEntity {
 
     @OneToMany(
             fetch = FetchType.LAZY,
-            mappedBy = "company"
+            mappedBy = "company",
+            cascade = CascadeType.ALL
     )
     private List<User> userList = new ArrayList<User>();
 

@@ -18,12 +18,13 @@ public class User extends NamedPersistenceEntity {
     private static final Logger log = Logger.getLogger(User.class);
 
     @ManyToOne
-    @JoinColumn(name = "companytypeid")
+    @JoinColumn(name = "companyId")
     private Company company;
 
     @OneToMany(
             fetch = FetchType.LAZY,
-            mappedBy = "user"
+            mappedBy = "user",
+            cascade = CascadeType.ALL
     )
     private List<UserRole> userRoleList = new ArrayList<UserRole>();
 
