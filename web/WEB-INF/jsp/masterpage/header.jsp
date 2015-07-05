@@ -5,7 +5,16 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="jstl" %>
 <head>
     <jsp:include page="/WEB-INF/jsp/masterpage/headerLinks.jsp"/>
-    <title><spring:message code="pageTitles_${requestScope['javax.servlet.forward.servlet_path']}"  text=""/></title>
+    <title>
+        <jstl:choose>
+            <jstl:when test="${pageTitle!=null}">
+                ${pageTitle}
+            </jstl:when>
+            <jstl:otherwise>
+                <spring:message code="pageTitles_${requestScope['javax.servlet.forward.servlet_path']}" text=""/>
+            </jstl:otherwise>
+        </jstl:choose>
+    </title>
 </head>
 <body>
 <jstl:if test="${message!=null}">

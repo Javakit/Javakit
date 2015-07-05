@@ -9,9 +9,11 @@
           class="org.springframework.security.access.vote.RoleVoter ">
     </bean>
 
-    <!-- this voter will have the default attributes -->
     <bean id="authenticatedVoter"
           class="org.springframework.security.access.vote.AuthenticatedVoter" />
+
+    <bean id="webExpressionVoter"
+          class="org.springframework.security.web.access.expression.WebExpressionVoter" />
 
     <bean id="accessDecisionManagerBean"
           class="org.springframework.security.access.vote.AffirmativeBased">
@@ -19,13 +21,13 @@
             <list>
                 <ref bean="roleVoter" />
                 <ref bean="authenticatedVoter" />
+                <ref bean="webExpressionVoter"/>
             </list>
         </constructor-arg>
     </bean>
 
-
     <!-- 4.5.1. Customizing the AccessDecisionManager -->
-    <security:http use-expressions="false" access-decision-manager-ref="accessDecisionManagerBean">
+    <security:http use-expressions="true" auto-config="true" authentication-manager-ref="authenticationManager" access-decision-manager-ref="accessDecisionManagerBean" >
         <security:form-login
                 login-page="/auth/login"
                 login-processing-url="/auth/login"
@@ -34,10 +36,9 @@
                 default-target-url="/"
                 authentication-failure-url="/auth/login?error=true"
                 />
-        <security:logout/>
+        <security:logout logout-url="/logout" logout-success-url=""/>
         <security:access-denied-handler error-page="/auth/error403"/>
-        <security:intercept-url pattern="/login" access="IS_AUTHENTICATED_ANONYMOUSLY" />
-        <security:intercept-url pattern="/*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <security:intercept-url pattern="/admin/**" access="isAuthenticated()" />
     </security:http>
 
     <bean id="userDetailsServiceImpl" class="net.compitek.javakit.security.UserDetailsServiceImpl" />

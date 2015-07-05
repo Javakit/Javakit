@@ -30,7 +30,7 @@ public class User extends NamedPersistenceEntity {
 
 
 
-    @Size(max = 255)
+    @Size(min = 1, max = 255)
     @Column(name = "login", length = 255 )
     private String login;
 

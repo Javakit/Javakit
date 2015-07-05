@@ -1,6 +1,7 @@
 package net.compitek.javakit.web.controller;
 
 import net.compitek.javakit.security.UserDetailsImpl;
+import net.compitek.javakit.service.NewsService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
@@ -18,7 +19,7 @@ public class SimpleController {
 
     private static final Logger log = Logger.getLogger(SimpleController.class);
 
-    @RequestMapping(value={"/","/hello"})
+    @RequestMapping({"/","/hello"})
     public String Hello(HttpServletRequest request,Map<String, Object> map){
         //map.put("message","hello!");
         try {
@@ -31,6 +32,7 @@ public class SimpleController {
 
         return "hello";
     }
+
 
     @Autowired
     private MessageSource messageSource;
