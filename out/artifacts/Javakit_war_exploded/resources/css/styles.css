@@ -32,3 +32,37 @@ a img {
     width:200px;
 
 }
+
+
+div.main{
+    min-height:400px;
+    width:100%;
+}
+
+/*news*/
+div #newsBlock{
+    margin:5px;
+    padding:5px;
+    border: 1px dotted gray;
+}
+div.newsItem{
+    border-bottom: 1px dashed lightgrey;
+    margin:5px;
+}
+div #newsBlockHeader{
+    font-size:16px;
+    font-weight:bold;
+    background-color:darkblue;
+    color:white;
+    padding:5px;
+}
+div.newsItemTitle{
+    font-size:14px;
+    font-weight:bold;
+    padding: 3px 5px;
+    background-color:lightcyan;
+}
+div.newsItemText{
+    font-size:14px;
+    padding:10px 5px 20px 5px ;
+}

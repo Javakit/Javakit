@@ -1,5 +1,6 @@
 package net.compitek.javakit.web.controller;
 
+import net.compitek.javakit.database.domain.News;
 import net.compitek.javakit.security.UserDetailsImpl;
 import net.compitek.javakit.service.NewsService;
 import org.apache.log4j.Logger;
@@ -19,7 +20,9 @@ public class SimpleController {
 
     private static final Logger log = Logger.getLogger(SimpleController.class);
 
-    @RequestMapping({"/","/hello"})
+
+
+    @RequestMapping("/hello")
     public String Hello(HttpServletRequest request,Map<String, Object> map){
         //map.put("message","hello!");
         try {
@@ -31,6 +34,15 @@ public class SimpleController {
         }
 
         return "hello";
+    }
+
+    @Autowired
+    NewsService newsService;
+
+    @RequestMapping("/")
+    public String home(Map map){
+        map.put("newsList", newsService.getEntityList(News.class));
+        return "home";
     }
 
 

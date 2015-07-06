@@ -22,6 +22,11 @@ public abstract class AbstractDao<ID extends Serializable, PEntity extends IPers
     @PersistenceContext
     protected EntityManager entityManager;
 
+    @Transactional(readOnly = true, propagation = Propagation.NEVER)
+    public List<? extends PEntity> getEntityList(Class clazz){
+        return entityManager.createQuery("from " + clazz.getName(), clazz).getResultList();
+    }
+
     @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
     public boolean create(PEntity entity) {
         try {
