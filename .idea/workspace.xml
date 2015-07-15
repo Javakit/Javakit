@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89270f48-db3e-4c8c-8f3f-400b4bb52744" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/NewsEditorController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/NewsListBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/home.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/newsEdit.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/newsList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/dao/AbstractDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/dao/AbstractDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/dao/AbstractDao.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/dao/AbstractDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/service/AbstractEntityService.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/service/AbstractEntityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/service/AbstractEntityService.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/service/AbstractEntityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/controller/SimpleController.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/controller/SimpleController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/SimpleController.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/SimpleController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/AbstractDao.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/AbstractDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/db-settings.xml" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/db-settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/db-settings.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/db-settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/forms_en.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/forms_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/forms_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/forms_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/forms_en.properties" afterPath="$PROJECT_DIR$/target/classes/forms_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/forms_ru.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/forms_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/forms_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/forms_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/forms_ru.properties" afterPath="$PROJECT_DIR$/target/classes/forms_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/masterpage/navigation_menu.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/masterpage/navigation_menu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/pageTitles_en.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/pageTitles_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pageTitles_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/pageTitles_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageTitles_en.properties" afterPath="$PROJECT_DIR$/target/classes/pageTitles_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/pageTitles_ru.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/pageTitles_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageTitles_ru.properties" afterPath="$PROJECT_DIR$/target/classes/pageTitles_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/css/styles.css" afterPath="$PROJECT_DIR$/web/resources/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Javakit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,87 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="navigation_menu.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navigation_menu.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.29651162">
+              <caret line="9" column="146" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp">
+      <file leaf-file-name="admin_navigation_menu.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state vertical-scroll-proportion="-7.1538463">
+              <caret line="14" column="144" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="144" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/resources/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90710384">
-              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/hello.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="i18n.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/i18n.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pageTitles_en.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pageTitles_en.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9310346">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pageTitles_ru.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5862069">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorityController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/AuthorityController.java">
+      <file leaf-file-name="NewsEditorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/NewsEditorController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="45" />
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -215,13 +126,13 @@
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/NewsEditorController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/pageTitles_en.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties" />
         <option value="$PROJECT_DIR$/web/resources/css/styles.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp" />
       </list>
     </option>
   </component>
@@ -278,8 +189,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1226,11 +1137,12 @@
       <workItem from="1435931875831" duration="2280000" />
       <workItem from="1435994427244" duration="23123000" />
       <workItem from="1436172621748" duration="4632000" />
+      <workItem from="1436942388940" duration="1335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128128000" />
+    <option name="totallyTimeSpent" value="129463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
@@ -1238,14 +1150,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08421053" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5477816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1257,12 +1167,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30877194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30877194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08421053" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5477816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42832765" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1292,13 +1204,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/commonMessages_ru.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.9310346">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/security/UserDetailsServiceImpl.java">
@@ -1496,13 +1408,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/forms_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.103448">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="31" selection-end-column="26" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/NewsDao.java">
@@ -1558,24 +1470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/NewsEditorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.172413">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.192307">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1598,13 +1492,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/forms_ru.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6973294">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp">
@@ -1631,39 +1525,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5862069">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pageTitles_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9310346">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/hello.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
+        <state vertical-scroll-proportion="0.2959381">
           <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding />
         </state>
@@ -1671,7 +1557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
           <folding />
         </state>
@@ -1679,8 +1565,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90710384">
+        <state vertical-scroll-proportion="0.8526704">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/NewsEditorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1538463">
+          <caret line="14" column="144" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29651162">
+          <caret line="9" column="146" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
           <folding />
         </state>
       </provider>

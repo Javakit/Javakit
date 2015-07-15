@@ -12,16 +12,16 @@
       <spring:message code="pageTitles_/"/>
     </a>|
   </div>
-  <sec:authorize url="/admin">
+  <sec:authorize access="hasAnyRole('ROLE_EditCompany','ROLE_EditUser', 'ROLE_EditUser', 'ROLE_EditSelfUser', 'ROLE_EditRole', 'ROLE_EditNews')">
     <div style="float:left;text-transform:uppercase;padding:5px;" >
       <a href="/admin">
         <spring:message code="pageTitles_/admin"/>
       </a>|
     </div>
   </sec:authorize>
-  <sec:authorize url="/NewsEditor/NewsList">
+  <sec:authorize access="hasRole('ROLE_EditNews')">
     <div style="float:left;text-transform:uppercase;padding:5px;">
-      <a href="/NewsEditor/newsList">
+      <a href="/NewsEditor/NewsList">
         <spring:message code="pageTitles_/NewsEditor/newsList"/>
       </a>|
     </div>

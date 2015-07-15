@@ -7,7 +7,7 @@
 <%@ taglib  uri="http://www.springframework.org/security/tags" prefix="sec" %>
 
 <div id="navigation" style="width: 100%; height: 24px; background-color: white;border-bottom: 2px solid gray;">
-    <sec:authorize url="/admin">
+    <sec:authorize access="hasAnyRole('ROLE_EditCompany','ROLE_EditUser', 'ROLE_EditUser', 'ROLE_EditSelfUser', 'ROLE_EditRole', 'ROLE_EditNews')">
         <div style="float:left;text-transform:uppercase;padding:5px;" >
             <a href="/admin">
                 <spring:message code="pageTitles_/admin"/>
