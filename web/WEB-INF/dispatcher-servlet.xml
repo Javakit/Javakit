@@ -36,6 +36,8 @@ This handler will forward all requests to the default Servlet. Therefore it is i
  -->
        <mvc:default-servlet-handler/>
 
+
+
        <!-- http://docs.spring.io/spring/docs/4.1.6.RELEASE/spring-framework-reference/htmlsingle/#mvc-config-view-resolvers -->
        <!--
         we strongly encourage placing your JSP files in a directory
@@ -53,5 +55,10 @@ This handler will forward all requests to the default Servlet. Therefore it is i
     <import resource="i18nMessageSource.xml"/>
 
     <import resource="i18nLocaleResolver.xml"/>
+
+    <security:global-method-security
+            pre-post-annotations="enabled"
+            secured-annotations="enabled"
+            />
 
 </beans>
