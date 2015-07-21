@@ -8,7 +8,7 @@ import javax.validation.constraints.Size;
  * Created by Evgene on 04.06.2015.
  */
 @MappedSuperclass
-public abstract class NamedPersistenceEntity extends PersistenceEntity implements INamedPersistenceEntity<Long> {
+public  class NamedPersistenceEntity extends PersistenceEntity implements INamedPersistenceEntity<Long> {
 
     @Size(min = 1, max = 255)
     @Column(name = "name",nullable =false, length = 255 )

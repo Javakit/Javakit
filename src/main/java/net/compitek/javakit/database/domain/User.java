@@ -21,12 +21,15 @@ public class User extends NamedPersistenceEntity {
     @JoinColumn(name = "companyId")
     private Company company;
 
-    @OneToMany(
-            fetch = FetchType.LAZY,
-            mappedBy = "user",
-            cascade = CascadeType.ALL
+    @ManyToMany(
+            cascade={CascadeType.PERSIST, CascadeType.MERGE}
     )
-    private List<UserRole> userRoleList = new ArrayList<UserRole>();
+    @JoinTable(
+            name="user_role",
+            joinColumns = @JoinColumn( name="roleid"),
+            inverseJoinColumns = @JoinColumn( name="permissionid")
+    )
+    private List<Role> roleList = new ArrayList<Role>();
 
 
 
@@ -44,19 +47,21 @@ public class User extends NamedPersistenceEntity {
     @Column(name = "email", nullable = false )
     private String email;
 
-    public List<UserRole> getUserRoleList() {
-        return userRoleList;
-    }
 
-    public void setUserRoleList(List<UserRole> userRoleList) {
-        this.userRoleList = userRoleList;
-    }
     public Company getCompany() {
         return company;
     }
 
     public void setCompany(Company company) {
         this.company = company;
+    }
+
+    public List<Role> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<Role> roleList) {
+        this.roleList = roleList;
     }
 
     public String getLogin() {
@@ -82,4 +87,6 @@ public class User extends NamedPersistenceEntity {
     public void setEmail(String email) {
         this.email = email;
     }
+
+
 }

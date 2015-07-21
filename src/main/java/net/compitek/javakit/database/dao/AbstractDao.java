@@ -1,6 +1,8 @@
 package net.compitek.javakit.database.dao;
 
+
 import net.compitek.javakit.database.domain.IPersistenceEntity;
+import net.compitek.javakit.utils.StringUtils;
 import org.apache.log4j.Logger;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -61,4 +63,9 @@ public abstract class AbstractDao<ID extends Serializable, PEntity extends IPers
     }
 
 
+    @Transactional(readOnly = true, propagation = Propagation.NEVER)
+    public List<PEntity> getReferencesByIds(List<Long> ids, Class clazz){
+        return entityManager.createQuery("from " + clazz.getName()
+                + " c  where c.id in " + StringUtils.createIdsString(ids)).getResultList();
+    }
 }

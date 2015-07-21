@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 public class UserFormBean {
     private static final Logger log = Logger.getLogger(UserFormBean.class);
@@ -20,6 +21,17 @@ public class UserFormBean {
 
     @Size(max = 255)
     private String repeatedPassword;
+
+    private List<Long> roleIdsList;
+
+
+    public List<Long> getRoleIdsList() {
+        return roleIdsList;
+    }
+
+    public void setRoleIdsList(List<Long> roleIdsList) {
+        this.roleIdsList = roleIdsList;
+    }
 
     public User getUser() {
         return user;

@@ -29,7 +29,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         User user = userDao.findByLogin(login);
         UserDetailsImpl userDetails = new UserDetailsImpl(user);
         TypedQuery<Permission> query = entityManager.createQuery(
-                "select p from User u join u.userRoleList ur join ur.role r join r.permissionList p where u.id like :userId", Permission.class);
+                "select p from User u join u.roleList r join r.permissionList p where u.id like :userId", Permission.class);
         query.setParameter("userId", user.getId());
         List<Permission> list = query.getResultList();
         if (!list.isEmpty())

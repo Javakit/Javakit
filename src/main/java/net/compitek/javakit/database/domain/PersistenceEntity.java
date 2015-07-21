@@ -1,6 +1,7 @@
 package net.compitek.javakit.database.domain;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 /**
  * Created by Evgene on 04.06.2015.

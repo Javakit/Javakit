@@ -26,5 +26,26 @@
       </a>|
     </div>
   </sec:authorize>
+  <sec:authorize  access="hasRole('ROLE_EditCompany')" >
+    <div style="float:left;text-transform:uppercase;padding:5px;">
+      <a href="/admin/Company/entityList">
+        <spring:message code="pageTitles_/admin/Company/entityList"/>
+      </a>|
+    </div>
+  </sec:authorize>
+  <sec:authorize access="hasRole('ROLE_EditUser')">
+    <div style="float:left;text-transform:uppercase;padding:5px;">
+      <a href="/admin/User/entityList">
+        <spring:message code="pageTitles_/admin/User/entityList"/>
+      </a>|
+    </div>
+  </sec:authorize>
+  <sec:authorize access="hasRole('ROLE_EditRole')">
+    <div style="float:left;text-transform:uppercase;padding:5px;">
+      <a href="/admin/Role/entityList">
+        <spring:message code="pageTitles_/admin/Role/entityList"/>
+      </a>|
+    </div>
+  </sec:authorize>
   <div style="clear: both"/>
 </div>

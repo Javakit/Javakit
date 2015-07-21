@@ -26,8 +26,6 @@ public class PremakeController {
     @Autowired
     private UserService userService;
     @Autowired
-    private UserRoleService userRoleService;
-    @Autowired
     private RoleService roleService;
     @Autowired
     private PermissionService permissionService;
@@ -66,15 +64,14 @@ public class PremakeController {
                 role2.setName("news editor");
                 roleService.create(role2);
 
-                UserRole userRole1 = new UserRole();
-                userRole1.setUser(user);
-                userRole1.setRole(role1);
-                userRoleService.create(userRole1);
 
-                UserRole userRole2 = new UserRole();
-                userRole2.setUser(user);
-                userRole2.setRole(role2);
-                userRoleService.create(userRole2);
+                List<Role> roleList = new ArrayList<Role>();
+
+                roleList.add(role1);
+                roleList.add(role2);
+                user.setRoleList(roleList);
+
+                userService.update(user);
 
                 Permission permissionEditCompany = new Permission();
                 permissionEditCompany.setName("ROLE_EditCompany");
@@ -85,9 +82,6 @@ public class PremakeController {
                 Permission permissionEditSelfUser = new Permission();
                 permissionEditSelfUser.setName("ROLE_EditSelfUser");
                 permissionService.create(permissionEditSelfUser);
-                Permission permissionEditUserRole = new Permission();
-                permissionEditUserRole.setName("ROLE_EditUserRole");
-                permissionService.create(permissionEditUserRole);
                 Permission permissionEditRole = new Permission();
                 permissionEditRole.setName("ROLE_EditRole");
                 permissionService.create(permissionEditRole);
@@ -95,7 +89,6 @@ public class PremakeController {
                 List<Permission> permissionList1 = new ArrayList<Permission>();
                 permissionList1.add(permissionEditCompany);
                 permissionList1.add(permissionEditUser);
-                permissionList1.add(permissionEditUserRole);
                 permissionList1.add(permissionEditRole);
 
                 role1.setPermissionList(permissionList1);

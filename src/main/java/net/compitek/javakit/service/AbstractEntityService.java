@@ -42,6 +42,11 @@ public abstract class AbstractEntityService<ID extends Serializable, PEntity ext
         return getDao().findById(id, getEntityClass());
     }
 
-
+    public List<PEntity>  getReferencesByIds(List<Long> ids){
+        return getDao().getReferencesByIds(ids, getEntityClass());
+    }
+    public List<PEntity>  getReferencesByIds(List<Long> ids, Class clazz){
+        return getDao().getReferencesByIds(ids, clazz);
+    }
 
 }
