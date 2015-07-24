@@ -2,189 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89270f48-db3e-4c8c-8f3f-400b4bb52744" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/independent/DataBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/compitek/javakit/web/controller/SimpleControllerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/compitek/javakit/utils/StringUtilsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/application-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/db-settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/i18nLocaleResolver.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/i18nMessageSource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/security.xml" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-1.11.3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-1.11.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\additional-methods.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\additional-methods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\jquery.validate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_bg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_bg.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ca.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_cs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_cs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_da.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_da.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_de.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_de.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_el.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_el.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_es.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_es_AR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_es_AR.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_et.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_et.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_eu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_eu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fa.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fa.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fi.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_gl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_gl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_he.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_he.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_hr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_hr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_hu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_hu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_id.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_id.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_is.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_is.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_it.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_it.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ja.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ja.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ka.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ka.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_kk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_kk.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ko.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ko.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_lt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_lt.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_lv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_lv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_my.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_my.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_nl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_nl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_no.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_no.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pt_BR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pt_BR.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pt_PT.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pt_PT.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ro.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ru.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ru.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_si.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_si.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sk.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sr_lat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sr_lat.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_th.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_th.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_tj.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_tj.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_tr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_tr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_uk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_uk.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_vi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_vi.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_zh.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_zh.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_zh_TW.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_zh_TW.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_de.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_de.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_es_CL.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_es_CL.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_fi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_fi.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_nl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_nl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_pt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_pt.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\src\test\java\mock.txt" afterPath="" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_orm_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Java\Javakit\web\WEB-INF\jog4j.properties" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/controller/PremakeController.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/controller/PremakeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/PremakeController.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/PremakeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/SimpleController.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/SimpleController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/utils/StringUtils.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/utils/StringUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Javakit.iml" afterPath="$PROJECT_DIR$/Javakit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Javakit_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Javakit_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/PremakeController.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/PremakeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/admin/admin_navigation_menu.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/application-context.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/application-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/commonMessages_en.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/commonMessages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/commonMessages_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/commonMessages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/commonMessages_en.properties" afterPath="$PROJECT_DIR$/target/classes/commonMessages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/commonMessages_ru.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/commonMessages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/commonMessages_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/commonMessages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/commonMessages_ru.properties" afterPath="$PROJECT_DIR$/target/classes/commonMessages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/masterpage/header.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/masterpage/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Javakit_logs/Javakit.log" afterPath="$PROJECT_DIR$/Javakit_logs/Javakit.log" />
     </list>
     <ignored path="Javakit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -259,9 +77,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1250,15 +1066,15 @@
       <workItem from="1437122210439" duration="32295000" />
       <workItem from="1437464506279" duration="25472000" />
       <workItem from="1437635658863" duration="19018000" />
-      <workItem from="1437715371518" duration="2645000" />
+      <workItem from="1437715371518" duration="3220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209839000" />
+    <option name="totallyTimeSpent" value="210414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1270,11 +1086,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51929826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51929826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34839204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34839204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1661,9 +1477,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
