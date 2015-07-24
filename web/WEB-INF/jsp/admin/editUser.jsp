@@ -7,5 +7,5 @@
 <%@ taglib  uri="http://www.springframework.org/security/tags" prefix="sec" %>
 <jsp:include page="/WEB-INF/jsp/masterpage/header.jsp"/>
 <jsp:include page="/WEB-INF/jsp/admin/admin_navigation_menu.jsp"/>
-<jsp:include page="/WEB-INF/jsp/Forms/userForm.jsp"/>
+<jsp:include page="/WEB-INF/jsp/forms/userForm.jsp"/>
 <jsp:include page="/WEB-INF/jsp/masterpage/footer.jsp"/>

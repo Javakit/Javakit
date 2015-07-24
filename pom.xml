@@ -150,7 +150,6 @@
             <artifactId>hibernate-validator</artifactId>
             <version>${hibernate-validator-version}</version>
         </dependency>
-
         <!--
          http://hibernate.org/validator/documentation/getting-started/
          Unified Expression Language (EL)

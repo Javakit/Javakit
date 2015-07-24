@@ -48,6 +48,8 @@ public class User extends NamedPersistenceEntity {
     private String email;
 
 
+
+
     public Company getCompany() {
         return company;
     }
