@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:security="http://www.springframework.org/schema/security"
+
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/security
+       http://www.springframework.org/schema/security/spring-security.xsd
+        ">
+
+       <!-- http://docs.spring.io/spring/docs/4.1.6.RELEASE/spring-framework-reference/htmlsingle/#mvc-config-enable -->
+       <!-- 16.16.1 To enable MVC Java config ... use the mvc:annotation-driven element. -->
+       <!-- It also enables the following: ...
+       http://docs.spring.io/spring/docs/4.1.6.RELEASE/spring-framework-reference/htmlsingle/#mvc-config
+       -->
+       <!-- JSR-303/JSR-349 support will be detected on classpath and enabled automatically -->
+       <mvc:annotation-driven />
+
+       <context:component-scan base-package="net.compitek.javakit.web"/>
+
+       <!-- 16.16.6 Configuring Serving of Resources -->
+       <!-- Configures a handler for serving static resources
+         -->
+       <mvc:resources mapping="/**" location="/resources/"/>
+
+       <!--http://docs.spring.io/spring/docs/4.1.6.RELEASE/spring-framework-reference/htmlsingle/#mvc-default-servlet-handler
+This handler will forward all requests to the default Servlet. Therefore it is important that it remains last in the order of all other URL HandlerMappings.
+ -->
+       <mvc:default-servlet-handler/>
+
+
+
+       <!-- http://docs.spring.io/spring/docs/4.1.6.RELEASE/spring-framework-reference/htmlsingle/#mvc-config-view-resolvers -->
+       <!--
+        we strongly encourage placing your JSP files in a directory
+        under the 'WEB-INF' directory,
+        so there can be no direct access by clients
+       -->
+       <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+              <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+              <property name="prefix" value="/WEB-INF/jsp/"/>
+              <property name="suffix" value=".jsp"/>
+              <property name="contentType" value="text/html;charset=UTF-8"/>
+       </bean>
+
+
+    <import resource="i18nMessageSource.xml"/>
+
+    <import resource="i18nLocaleResolver.xml"/>
+
+    <security:global-method-security
+            pre-post-annotations="enabled"
+            secured-annotations="enabled"
+            />
+
+</beans>

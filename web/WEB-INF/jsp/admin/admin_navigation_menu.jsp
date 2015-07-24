@@ -21,7 +21,7 @@
   </sec:authorize>
   <sec:authorize access="hasRole('ROLE_EditNews')">
     <div style="float:left;text-transform:uppercase;padding:5px;">
-      <a href="/NewsEditor/NewsList">
+      <a href="/NewsEditor/newsList">
         <spring:message code="pageTitles_/NewsEditor/newsList"/>
       </a>|
     </div>

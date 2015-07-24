@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <org.springframework.version>4.1.6.RELEASE</org.springframework.version>
+        <org.springframework.version>4.1.7.RELEASE</org.springframework.version>
         <jstl-version>1.2</jstl-version>
         <org.hibernate.version>4.3.7.Final</org.hibernate.version>
 
@@ -17,6 +17,8 @@
 
         <org.springframework.security.version>4.0.1.RELEASE</org.springframework.security.version>
 
+
+        <JUnit.version>4.12</JUnit.version>
     </properties>
 
     <repositories>
@@ -186,5 +188,17 @@
             <version>${org.springframework.security.version}</version>
         </dependency>
 
+
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${JUnit.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
     </dependencies>
 </project>

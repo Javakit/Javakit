@@ -10,6 +10,8 @@ public class StringUtils {
     private static final Logger log = Logger.getLogger(StringUtils.class);
 
     public static String generatePassword(int length){
+        if (length<5)length=5;
+        else if(length>12) length=12;
         String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<>?/;:/*-+.#$%^&£!";
         int i = 0;
         int maxNumber = alphabet.length();

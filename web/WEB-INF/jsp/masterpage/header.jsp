@@ -26,7 +26,11 @@
     });</script>
 </jstl:if>
 
-<div style="width: 100%; height: 40px; background-color: white;border-bottom: 2px solid gray;"></div>
+<div style="width: 100%; height: 40px; background-color: white;border-bottom: 2px solid gray;">
+    <div id="multilang" style="float:right; padding:5px 15px;">
+        <a class="multilangLink" href='?lang=ru'>рус.</a> | <a class="multilangLink" href='?lang=en'>eng.</a>
+    </div>
+</div>
 
 
 

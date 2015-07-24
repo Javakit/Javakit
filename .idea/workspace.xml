@@ -2,74 +2,187 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89270f48-db3e-4c8c-8f3f-400b4bb52744" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/component/EntityList.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/NamedEntityListBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/NamedPersistenceEntityDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/NamedPersistenceEntityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/SelectedRoleBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/editCompany.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/editRole.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/editUser.jsp" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\WEB-INF\classes\net\compitek\javakit\database\dao\UserRoleDao.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\WEB-INF\classes\net\compitek\javakit\database\domain\UserRole.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\WEB-INF\classes\net\compitek\javakit\service\UserRoleService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\src\main\java\net\compitek\javakit\database\dao\UserRoleDao.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\src\main\java\net\compitek\javakit\database\domain\UserRole.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\src\main\java\net\compitek\javakit\service\UserRoleService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\target\classes\net\compitek\javakit\database\dao\UserRoleDao.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\target\classes\net\compitek\javakit\database\domain\UserRole.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Java\Javakit\target\classes\net\compitek\javakit\service\UserRoleService.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/dao/AbstractDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/dao/AbstractDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/dao/AbstractDao.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/dao/AbstractDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/service/AbstractEntityService.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/service/AbstractEntityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/service/AbstractEntityService.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/service/AbstractEntityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/controller/admin/AdminController.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/controller/admin/AdminController.class" />
-      <change type="MODIFICATION" beforePath="C:\Java\Javakit\target\classes\net\compitek\javakit\web\controller\admin\AdminController.class" afterPath="C:\Java\Javakit\target\classes\net\compitek\javakit\web\controller\admin\AdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/domain/NamedPersistenceEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/domain/NamedPersistenceEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/domain/NamedPersistenceEntity.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/domain/NamedPersistenceEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/domain/PersistenceEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/domain/PersistenceEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/domain/PersistenceEntity.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/domain/PersistenceEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/independent/DataBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/compitek/javakit/web/controller/SimpleControllerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/compitek/javakit/utils/StringUtilsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/db-settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/i18nLocaleResolver.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/i18nMessageSource.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/security.xml" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\images\ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-1.11.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-1.11.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.structure.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.structure.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\jquery-ui.theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\additional-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\additional-methods.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_bg.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_bg.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ca.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_cs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_cs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_da.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_da.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_de.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_el.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_el.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_es.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_es.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_es_AR.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_es_AR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_et.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_et.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_eu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_eu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fa.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fa.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_fr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_gl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_gl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_he.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_he.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_hr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_hr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_hu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_hu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_id.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_id.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_is.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_is.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_it.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_it.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ja.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ja.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ka.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ka.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_kk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_kk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ko.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ko.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_lt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_lt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_lv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_lv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_my.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_my.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_nl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_no.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_no.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pt_BR.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pt_BR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pt_PT.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_pt_PT.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_ru.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_si.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_si.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sr_lat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sr_lat.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_sv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_th.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_th.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_tj.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_tj.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_tr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_tr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_uk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_uk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_vi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_vi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_zh.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_zh.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_zh_TW.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\messages_zh_TW.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_de.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_es_CL.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_es_CL.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_fi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_nl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_pt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\out\artifacts\Javakit_war_exploded\resources\jquery\validation\localization\methods_pt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Java\Javakit\src\test\java\mock.txt" afterPath="" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_orm_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\.idea\libraries\Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Java\Javakit\web\WEB-INF\jog4j.properties" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/controller/PremakeController.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/controller/PremakeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/PremakeController.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/PremakeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/domain/Role.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/domain/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/domain/Role.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/domain/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/domain/User.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/database/domain/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/database/domain/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/security/UserDetailsServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/security/UserDetailsServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/security/UserDetailsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/security/UserDetailsServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/formBean/UserFormBean.class" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/net/compitek/javakit/web/formBean/UserFormBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/formBean/UserFormBean.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/formBean/UserFormBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/AbstractDao.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/AbstractDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/NamedPersistenceEntity.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/NamedPersistenceEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/PersistenceEntity.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/PersistenceEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/SimpleController.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/web/controller/SimpleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/compitek/javakit/utils/StringUtils.class" afterPath="$PROJECT_DIR$/target/classes/net/compitek/javakit/utils/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Javakit.iml" afterPath="$PROJECT_DIR$/Javakit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Javakit_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Javakit_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/PremakeController.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/PremakeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/Role.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/security/UserDetailsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/security/UserDetailsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/UserFormBean.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/UserFormBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java" afterPath="$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/admin/admin_navigation_menu.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/db-settings.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/db-settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/forms_en.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/forms_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/forms_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/forms_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/forms_en.properties" afterPath="$PROJECT_DIR$/target/classes/forms_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/forms_ru.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/forms_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/forms_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/forms_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/forms_ru.properties" afterPath="$PROJECT_DIR$/target/classes/forms_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/masterpage/navigation_menu.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/masterpage/navigation_menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/pageTitles_en.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/pageTitles_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pageTitles_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/pageTitles_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageTitles_en.properties" afterPath="$PROJECT_DIR$/target/classes/pageTitles_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/pageTitles_ru.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/pageTitles_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pageTitles_ru.properties" afterPath="$PROJECT_DIR$/target/classes/pageTitles_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/Forms/userForm.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/Forms/userForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/Forms/userForm.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/Forms/userForm.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/application-context.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/application-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/commonMessages_en.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/commonMessages_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/commonMessages_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/commonMessages_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/commonMessages_en.properties" afterPath="$PROJECT_DIR$/target/classes/commonMessages_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/commonMessages_ru.properties" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/classes/commonMessages_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/commonMessages_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/commonMessages_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/commonMessages_ru.properties" afterPath="$PROJECT_DIR$/target/classes/commonMessages_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/masterpage/header.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Javakit_war_exploded/WEB-INF/jsp/masterpage/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -95,64 +208,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java">
+      <file leaf-file-name="StringUtilsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/compitek/javakit/utils/StringUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57831323">
-              <caret line="167" column="38" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
               <folding>
-                <element signature="e#4835#4841#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editRole.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/editRole.jsp">
+      <file leaf-file-name="SimpleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleControllerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/compitek/javakit/web/controller/SimpleControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.7886178">
+              <caret line="203" column="10" selection-start-line="203" selection-start-column="10" selection-end-line="203" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db-settings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/db-settings.xml">
+      <file leaf-file-name="DataBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/independent/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.814815">
-              <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editCompany.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/editCompany.jsp">
+      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="28" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userForm.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Forms/userForm.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="42.153847">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/component/EntityList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.5">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,8 +288,9 @@
         <option value="spring-beans.schema" />
         <option value="Class" />
         <option value="Class + Log4J 2" />
-        <option value="Class + Log4J" />
         <option value="Jsp File" />
+        <option value="Class + Log4J" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -183,30 +305,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/UserService.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/hello.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/auth/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/PermissionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/NewsService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/News.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/footer.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/headerLinks.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/security.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/NewsListBean.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/newsList.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/newsEdit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/NewsEditorController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp" />
-        <option value="$PROJECT_DIR$/web/resources/css/styles.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/pageTitles_en.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/component/EntityList.jsp" />
@@ -216,7 +315,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/NamedPersistantEntityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/SelectedRoleBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/Role.java" />
@@ -224,16 +322,40 @@
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/UserRoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/security/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/UserFormBean.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/editUser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/PremakeController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/editCompany.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/editRole.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/forms_en.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/forms_ru.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/db-settings.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Forms/userForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/commonMessages_ru.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/commonMessages_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/NewsEditorController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/PremakeController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/multiLang.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp" />
+        <option value="$PROJECT_DIR$/src/test/application-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java" />
+        <option value="$PROJECT_DIR$/src/test/config/db-settings.xml" />
+        <option value="$PROJECT_DIR$/src/test/context/db-settings.xml" />
+        <option value="$PROJECT_DIR$/src/test/context/application-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/context/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/db-settings.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/application-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/jog4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/jog4j.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/web.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/security.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/db-settings.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/independent/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/compitek/javakit/utils/StringUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/compitek/javakit/web/controller/SimpleControllerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -290,8 +412,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,181 +463,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Forms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -531,6 +478,100 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javakit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javakit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javakit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javakit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javakit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javakit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javakit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Javakit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="independent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,62 +595,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'pageTitles'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'forms'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'commonMessages'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -639,10 +624,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="formBean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -677,44 +658,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -773,126 +716,11 @@
               <option name="myItemId" value="javakit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javakit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -906,29 +734,141 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ideaKit" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Java\Javakit\web\resources\css" />
-      <recent name="C:\Java\Javakit\web\resources\jquery\validation" />
+      <recent name="C:\Java\Javakit\src\test\resources" />
+      <recent name="C:\Java\Javakit\src\test\java\resources" />
       <recent name="C:\Java\Javakit\src\main\resources" />
-      <recent name="C:\Java\Javakit\web\resources\jquery" />
-      <recent name="C:\Java\Javakit\web\resources\javascript" />
+      <recent name="C:\Java\Javakit\src\test\java" />
+      <recent name="C:\Java\Javakit\src\test\context" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Java\Javakit\web\WEB-INF\jsp\auth" />
-      <recent name="C:\Java\Javakit\web\WEB-INF\jsp\admin" />
-      <recent name="C:\Java\Javakit\web\WEB-INF" />
+      <recent name="C:\Java\Javakit\src\test" />
+      <recent name="C:\Java\Javakit\src\test\resources" />
+      <recent name="C:\Java\Javakit\src\main\resources" />
+      <recent name="C:\Java\Javakit\src\test\resources\META_INF\spring" />
+      <recent name="C:\Java\Javakit\src\test\resources\META-INF" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.compitek.javakit.web.controller" />
+      <recent name="net.compitek.javakit.utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="net.compitek.javakit.web.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat80">
+  <component name="RunManager" selected="JUnit.All in Javakit">
+    <configuration default="false" name="SimpleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.compitek.javakit.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Javakit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="net.compitek.javakit.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="net.compitek.javakit.web.controller.SimpleControllerTest" />
+      <option name="METHOD_NAME" value="testHome" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="independent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Javakit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="independent" />
+      <option name="MAIN_CLASS_NAME" value="independent.DataBase" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.compitek.javakit.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Javakit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.compitek.javakit.utils" />
+      <option name="MAIN_CLASS_NAME" value="net.compitek.javakit.utils.StringUtilsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in Javakit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Javakit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -1262,9 +1202,21 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat80" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SimpleControllerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DataBase" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StringUtilsTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Javakit" />
     </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Javakit" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SimpleControllerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringUtilsTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DataBase" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -1296,44 +1248,48 @@
       <workItem from="1436172621748" duration="4632000" />
       <workItem from="1436942388940" duration="2281000" />
       <workItem from="1437122210439" duration="32295000" />
+      <workItem from="1437464506279" duration="25472000" />
+      <workItem from="1437635658863" duration="19018000" />
+      <workItem from="1437715371518" duration="2645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162704000" />
+    <option name="totallyTimeSpent" value="209839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08421053" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4105263" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5477816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51929826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26952526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34839204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22280702" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38245615" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31754386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1349,66 +1305,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>206</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>215</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>209</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>207</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>221</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>225</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>229</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>217</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java</url>
-          <line>219</line>
-          <properties />
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="58" />
+      <option name="time" value="157" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1417,460 +1317,391 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/NewsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/NewsListBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/newsList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462">
-          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/newsEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3076923">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8387978">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7764706">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/AuthorityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/i18n.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483871">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/headerLinks.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2959381">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding />
+        <state vertical-scroll-proportion="-10.153846">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8526704">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/navigation_menu.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/masterpage/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="146" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/NewsEditorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71823204">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/admin_navigation_menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.538462">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pageTitles_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.448276">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pageTitles_ru.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.862069">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/NamedPersistenceEntityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/NamedPersistenceEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/NamedPersistenceEntityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/NamedEntityListBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#694#695#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/antlr/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.066019416">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65498155">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7490775">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#811#812#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/PermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18819188">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/PersistenceEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72649574">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/PermissionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
-          <folding>
-            <element signature="e#870#876#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1505#1506#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/domain/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/security/UserDetailsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/security/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/SelectedRoleBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#483#484#0" expanded="false" />
-            <element signature="e#510#511#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/editUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/PremakeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#2190#2196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/formBean/UserFormBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/editCompany.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="28" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/forms_ru.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.793103">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/forms_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53235906">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/component/EntityList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.5">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/db-settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.814815">
-          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/editRole.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Forms/userForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="42.153847">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
+          <caret line="30" column="109" selection-start-line="30" selection-start-column="109" selection-end-line="30" selection-end-column="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/admin/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57831323">
-          <caret line="167" column="38" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="151" column="12" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.037037">
+          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar!/org/springframework/core/io/Resource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0102459015">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar!/org/springframework/core/io/support/EncodedResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.851852">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33076924">
+          <caret line="329" column="0" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/service/AbstractEntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/database/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.5.8/jcl-over-slf4j-1.5.8-sources.jar!/org/apache/commons/logging/LogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="15.740741">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8-sources.jar!/org/slf4j/impl/Log4jLoggerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="596" column="0" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE-sources.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.5.8/jcl-over-slf4j-1.5.8-sources.jar!/org/apache/commons/logging/impl/SLF4JLocationAwareLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar!/org/apache/log4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jdk1.8.0_40/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4827585">
+          <caret line="1433" column="0" selection-start-line="1433" selection-start-column="0" selection-end-line="1433" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar!/org/apache/log4j/Hierarchy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.5.8/jcl-over-slf4j-1.5.8-sources.jar!/org/apache/commons/logging/impl/SLF4JLogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8-sources.jar!/org/slf4j/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar!/org/apache/log4j/LogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8-sources.jar!/org/slf4j/impl/Log4jLoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar!/org/apache/log4j/helpers/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7488987">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar!/org/apache/log4j/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22246696">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jdk1.8.0_40/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33054394">
+          <caret line="1086" column="0" selection-start-line="1086" selection-start-column="0" selection-end-line="1086" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/db-settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.37037">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/i18nMessageSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/i18nLocaleResolver.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jdk1.8.0_40/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="11" selection-start-line="184" selection-start-column="11" selection-end-line="184" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34-sources.jar!/com/mysql/jdbc/ConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3908" column="18" selection-start-line="3908" selection-start-column="18" selection-end-line="3908" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar!/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7037036">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66887414">
+          <caret line="267" column="23" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
           <folding>
-            <element signature="e#4835#4841#0" expanded="true" />
+            <element signature="e#7861#7862#0" expanded="false" />
+            <element signature="e#7914#7915#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/db-settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/independent/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/compitek/javakit/utils/StringUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/compitek/javakit/web/controller/SimpleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/compitek/javakit/web/controller/SimpleControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7886178">
+          <caret line="203" column="10" selection-start-line="203" selection-start-column="10" selection-end-line="203" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

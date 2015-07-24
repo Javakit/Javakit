@@ -111,7 +111,7 @@ public class PremakeController {
             }
 
         }
-        return "hello";
+        return "home";
     }
 
 

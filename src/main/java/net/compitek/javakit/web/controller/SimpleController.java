@@ -37,7 +37,7 @@ public class SimpleController {
     }
 
     @Autowired
-    NewsService newsService;
+    private NewsService newsService;
 
     @RequestMapping("/")
     public String home(Map map){

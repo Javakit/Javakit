@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <bean id="roleVoter"
+          class="org.springframework.security.access.vote.RoleVoter ">
+    </bean>
+
+    <bean id="authenticatedVoter"
+          class="org.springframework.security.access.vote.AuthenticatedVoter" />
+
+    <bean id="webExpressionVoter"
+          class="org.springframework.security.web.access.expression.WebExpressionVoter" />
+
+    <bean id="accessDecisionManagerBean"
+          class="org.springframework.security.access.vote.AffirmativeBased">
+        <constructor-arg name="decisionVoters">
+            <list>
+                <ref bean="roleVoter" />
+                <ref bean="authenticatedVoter" />
+                <ref bean="webExpressionVoter"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <!-- 4.5.1. Customizing the AccessDecisionManager -->
+    <security:http use-expressions="true" auto-config="true" authentication-manager-ref="authenticationManager" access-decision-manager-ref="accessDecisionManagerBean" >
+        <security:form-login
+                login-page="/auth/login"
+                login-processing-url="/auth/login"
+                username-parameter="login"
+                password-parameter="password"
+                default-target-url="/"
+                authentication-failure-url="/auth/login?error=true"
+                />
+        <security:logout logout-url="/logout" logout-success-url=""/>
+        <security:access-denied-handler error-page="/auth/error403"/>
+        <security:intercept-url pattern="/**" access="permitAll" />
+    </security:http>
+
+    <bean id="userDetailsServiceImpl" class="net.compitek.javakit.security.UserDetailsServiceImpl" />
+
+    <bean id="daoAuthenticationProvider"
+          class="org.springframework.security.authentication.dao.DaoAuthenticationProvider">
+        <property name="userDetailsService" ref="userDetailsServiceImpl"/>
+    </bean>
+
+    <security:authentication-manager alias="authenticationManager">
+        <security:authentication-provider ref="daoAuthenticationProvider"></security:authentication-provider>
+    </security:authentication-manager>
+
+</beans>
