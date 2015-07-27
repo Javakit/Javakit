@@ -18,7 +18,8 @@ public class NamedPersistenceEntityDao {
     protected EntityManager entityManager;
 
     public List<NamedPersistenceEntity> getNamedEntityList(String classname)throws RuntimeException{
-        return entityManager.createQuery(" select new net.compitek.javakit.database.domain.NamedPersistenceEntity(c.id, c.name)  " +
-                " from " + classname + " c ").getResultList();
+        return entityManager.createQuery(
+                " select new net.compitek.javakit.database.domain.NamedPersistenceEntity(c.id, c.name)  " +
+                " from " + classname + " c ", NamedPersistenceEntity.class).getResultList();
     }
 }

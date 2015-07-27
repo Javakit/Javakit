@@ -12,7 +12,7 @@
     padding: 5px 10px;
   }
 </style>
-<div style="padding:10px;"><spring:message code="pageTitles_/NewsEditor/NewsList" text=""/></div>
+<div style="padding:10px;"><spring:message code="pageTitles_/NewsEditor/newsList" text=""/></div>
 <table border=1px bordercolor="lightgray" cellspacing=0 cellpadding=0   style="margin: 10px;" >
   <jstl:forEach items="${newsListBean.newsList}" var="news">
     <tr>

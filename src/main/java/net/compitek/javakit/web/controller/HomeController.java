@@ -3,31 +3,38 @@ package net.compitek.javakit.web.controller;
 import net.compitek.javakit.database.domain.News;
 import net.compitek.javakit.security.UserDetailsImpl;
 import net.compitek.javakit.service.NewsService;
+import net.compitek.javakit.utils.locale.MessageSourceWrapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.MessageSource;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.LocaleResolver;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 
 @Controller
-public class SimpleController {
+public class HomeController {
 
-    private static final Logger log = Logger.getLogger(SimpleController.class);
+    private static final Logger log = Logger.getLogger(HomeController.class);
 
 
+    @Autowired
+    @Qualifier("messageSource")
+    private MessageSourceWrapper messageSource;
+
+    @Autowired
+    private NewsService newsService;
 
     @RequestMapping("/hello")
-    public String Hello(HttpServletRequest request,Map<String, Object> map){
+    public String hello(HttpServletRequest request,ModelMap modelMap){
         //map.put("message","hello!");
         try {
             Object details = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-            map.put("userDetails", (UserDetailsImpl) details);
+            modelMap.put("userDetails", (UserDetailsImpl) details);
         }
         catch (Exception e){
             log.info("AUTHENTICATED_ANONYMOUSLY");
@@ -36,26 +43,12 @@ public class SimpleController {
         return "hello";
     }
 
-    @Autowired
-    private NewsService newsService;
+
 
     @RequestMapping("/")
     public String home(Map map){
         map.put("newsList", newsService.getEntityList(News.class));
         return "home";
-    }
-
-
-    @Autowired
-    private MessageSource messageSource;
-
-    @Autowired
-    private LocaleResolver localeResolver;
-
-    @RequestMapping("/i18n")
-    public String i18n(Map<String, Object> map,HttpServletRequest request){
-        map.put("DeleteConfirmMessage",messageSource.getMessage("DeleteConfirm",null,localeResolver.resolveLocale(request)));
-        return "i18n";
     }
 
 

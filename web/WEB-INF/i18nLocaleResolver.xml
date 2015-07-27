@@ -19,7 +19,7 @@
               </bean>
               <!-- 16.16.3 Configuring Interceptors -->
               <mvc:interceptors>
-                     <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+                     <bean class="net.compitek.javakit.utils.locale.LocaleChangeInterceptorWrapper">
                             <property name="paramName" value="lang"/>
                      </bean>
               </mvc:interceptors>

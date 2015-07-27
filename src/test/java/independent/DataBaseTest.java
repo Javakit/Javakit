@@ -16,9 +16,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import java.sql.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration( locations = {"classpath*:application-context.xml"})
-public class DataBase extends TestCase {
-    private static final Logger log = Logger.getLogger(DataBase.class);
+@ContextConfiguration( locations = {"classpath*:test-application-context.xml"})
+public class DataBaseTest extends TestCase {
+    private static final Logger log = Logger.getLogger(DataBaseTest.class);
 
     @Autowired
     private DriverManagerDataSource jdbcDataSource;

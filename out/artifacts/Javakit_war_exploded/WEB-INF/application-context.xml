@@ -14,10 +14,13 @@
 
     <context:annotation-config/>
 
+
+
     <context:component-scan base-package="
            net.compitek.javakit.database,
            net.compitek.javakit.service,
-           net.compitek.javakit.security"/>
+           net.compitek.javakit.security,
+           net.compitek.javakit.utils"/>
 
     <import resource="i18nMessageSource.xml"/>
 

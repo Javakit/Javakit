@@ -5,7 +5,7 @@
 
        <!-- 4.16.1 Internationalization using MessageSource-->
        <bean id="messageSource"
-             class="org.springframework.context.support.ResourceBundleMessageSource">
+             class="net.compitek.javakit.utils.locale.MessageSourceWrapper">
               <property name="defaultEncoding" value="UTF-8"/>
               <property name="basenames">
                      <list>

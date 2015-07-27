@@ -10,6 +10,7 @@ import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.ArrayList;
@@ -35,13 +36,11 @@ public class PremakeController {
     @RequestMapping("/preMake")
     @Secured("IS_AUTHENTICATED_ANONYMOUSLY")
     @Transactional(readOnly = false, propagation = Propagation.REQUIRES_NEW)
-    public String preMakeDB(Map<String, Object> map){
+    public String preMakeDB(ModelMap modelMap) {
 
-        if (!userService.isLoginFree("test")){
-            map.put("message", "user 'test' already existed");
-        }
-        else
-        {
+        if (!userService.isLoginFree("test")) {
+            modelMap.put("message", "user 'test' already existed");
+        } else {
             try {
 
                 Company company = new Company();
@@ -104,9 +103,9 @@ public class PremakeController {
                 role2.setPermissionList(permissionList2);
                 roleService.update(role2);
 
-                map.put("message", "preMake finished");
+                modelMap.put("message", "preMake finished");
 
-            }catch (Exception e){
+            } catch (Exception e) {
                 log.error(e);
             }
 

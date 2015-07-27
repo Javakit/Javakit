@@ -17,7 +17,8 @@ public class UserDao extends AbstractDao<Long,User>{
 
     @Transactional(readOnly = true, propagation = Propagation.NEVER)
     public Boolean isLoginFree(String login){
-        TypedQuery<Boolean> query = entityManager.createQuery(" SELECT count(*)=0 from  User u where u.login like :login", Boolean.class);
+        TypedQuery<Boolean> query = entityManager.createQuery(" SELECT count(*)=0 from  User u where u.login like :login",
+                Boolean.class);
         query.setParameter("login",login);
         Boolean response = query.getSingleResult();
         return response;
@@ -26,7 +27,8 @@ public class UserDao extends AbstractDao<Long,User>{
     @Transactional(readOnly = true, propagation = Propagation.NEVER)
     public User findByLogin(String login) {
 
-        TypedQuery<User> query = entityManager.createQuery("SELECT u from User u where u.login like :login ",User.class);
+        TypedQuery<User> query = entityManager.createQuery("SELECT u from User u where u.login like :login ",
+                User.class);
         query.setParameter("login",login);
         try {
             User user =  query.getSingleResult();

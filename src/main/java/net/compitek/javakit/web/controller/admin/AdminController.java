@@ -4,18 +4,24 @@ package net.compitek.javakit.web.controller.admin;/**
 
 import net.compitek.javakit.database.domain.*;
 import net.compitek.javakit.service.*;
+import net.compitek.javakit.utils.PersistanceEntityUtils;
 import net.compitek.javakit.utils.StringUtils;
+import net.compitek.javakit.utils.locale.LocaleHolder;
+import net.compitek.javakit.utils.locale.MessageSourceWrapper;
 import net.compitek.javakit.web.formBean.NamedEntityListBean;
 import net.compitek.javakit.web.formBean.SelectedRoleBean;
 import net.compitek.javakit.web.formBean.UserFormBean;
 import org.apache.log4j.Logger;
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.support.AutowireCandidateQualifier;
 import org.springframework.context.MessageSource;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
@@ -25,6 +31,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 @Controller
@@ -38,111 +45,122 @@ public class AdminController {
         return "/admin/home";
     }
 
-
     @Autowired
     private NamedPersistenceEntityService namedPersistenceEntityService;
 
-    private String namedEntityList(@RequestParam String entityName, Map<String, Object> map) {
+    @Autowired
+    @Qualifier("messageSource")
+    private MessageSourceWrapper messageSource;
+
+    @Autowired
+    private PersistanceEntityUtils persistanceEntityUtils;
+
+    @Autowired
+    private CompanyService companyService;
+    @Autowired
+    private RoleService roleService;
+    @Autowired
+    private PermissionService permissionService;
+
+    @Autowired
+    private UserService userService;
+
+    private String namedEntityList(@RequestParam String entityName,ModelMap modelMap) {
         List<NamedPersistenceEntity> namedEntityList = namedPersistenceEntityService.getNamedEntityList(entityName);
 
         NamedEntityListBean bean = new NamedEntityListBean();
         bean.setEntityList(namedEntityList);
         bean.setEntityName(entityName);
-        map.put("entityListBean", bean);
+        modelMap.put("entityListBean", bean);
 
         return "/component/EntityList";
     }
 
     @Secured("ROLE_EditCompany")
     @RequestMapping("/Company/entityList")
-    public String companyList(Map<String, Object> map) {
-        return namedEntityList("Company", map);
+    public String companyList(ModelMap modelMap) {
+        return namedEntityList("Company", modelMap);
     }
 
     @Secured("ROLE_EditUser")
     @RequestMapping("/User/entityList")
-    public String userList(Map<String, Object> map) {
-        return namedEntityList("User", map);
+    public String userList(ModelMap modelMap) {
+        return namedEntityList("User",modelMap);
     }
 
     @Secured("ROLE_EditRole")
     @RequestMapping("/Role/entityList")
-    public String roleList(Map<String, Object> map) {
-        return namedEntityList("Role", map);
+    public String roleList(ModelMap modelMap) {
+        return namedEntityList("Role", modelMap);
     }
 
-    @Autowired
-    private MessageSource messageSource;
-    @Autowired
-    private LocaleResolver localeResolver;
-    @Autowired
-    private CompanyService companyService;
 
     @Secured("ROLE_EditCompany")
     @RequestMapping("/Company/edit/{id}")
-    public String editCompany(@PathVariable("id") long id, Map<String, Object> map, HttpServletRequest request) {
-        if (id > 0)
-            map.put("company", companyService.findById(id));
-        else
-            map.put("company", new Company());
-        map.put("pageTitle", messageSource.getMessage("pageTitles_/admin/Company/edit", null, localeResolver.resolveLocale(request)));
+    public String editCompany(@PathVariable("id") long id, ModelMap modelMap, Locale locale) {
+        modelMap.put("company", id > 0 ? companyService.findById(id) : companyService.findById(id));
+        modelMap.put("pageTitle", messageSource.getMessage("pageTitles_/admin/Company/edit"));
         return "/admin/editCompany";
     }
 
     @Secured("ROLE_EditCompany")
     @RequestMapping(value = "/Company/save", method = RequestMethod.POST)
-    public String saveCompany(HttpServletRequest request, @Valid @ModelAttribute(value = "company") Company company, Map<String, Object> map) {
-        if (request.getParameterMap().containsKey("cancel"))
+    public String saveCompany(HttpServletRequest request,
+                              @Valid @ModelAttribute(value = "company") Company company,
+                              ModelMap modelMap,
+                              @RequestParam(required = false, value = "cancel") String isCancel
+    ) {
+        if (isCancel != null)
             return "redirect:/admin/Company/entityList";
         if (company.getId() != null)
             companyService.update(company);
         else
             companyService.create(company);
-        return namedEntityList("Company", map);
+        return namedEntityList("Company", modelMap);
     }
 
     @Secured("ROLE_EditCompany")
     @RequestMapping("/Company/delete/{id}")
-    public String deleteCompany(@PathVariable("id") long id, @ModelAttribute("entityListBean") NamedEntityListBean bean, Map<String, Object> map) {
+    public String deleteCompany(@PathVariable("id") long id, @ModelAttribute("entityListBean") NamedEntityListBean bean, ModelMap modelMap) {
         companyService.delete(id);
         return "redirect:/admin/Company/entityList";
     }
 
-    @Autowired
-    private RoleService roleService;
-    @Autowired
-    private PermissionService permissionService;
-
     @Secured("ROLE_EditRole")
     @RequestMapping("/Role/edit/{id}")
-    public String editRole(@PathVariable("id") long id, Map<String, Object> map, HttpServletRequest request, @ModelAttribute("selectedRoleBean") SelectedRoleBean selectedRoleBean) {
+    public String editRole(@PathVariable("id") long id,
+                           ModelMap modelMap,
+                           HttpServletRequest request,
+                           @ModelAttribute("selectedRoleBean") SelectedRoleBean selectedRoleBean) {
         Role role;
         if (id > 0)
             role = roleService.findById(id);
         else
             role = new Role();
-        Hibernate.initialize(role.getPermissionList());
+        //Hibernate.initialize(role.getPermissionList());
         selectedRoleBean.setRole(role);
-        List<Long> permissionIdsList = new ArrayList<Long>();
-        for (Permission permission : role.getPermissionList()) {
-            permissionIdsList.add(permission.getId());
-        }
+        List<Long> permissionIdsList = persistanceEntityUtils.toListLong(role.getPermissionList());
+
         selectedRoleBean.setPermissionIdsList(permissionIdsList);
-        map.put("selectedRoleBean", selectedRoleBean);
-        map.put("fullPermissionList", namedPersistenceEntityService.getNamedEntityList(Permission.class.getName()));
-        map.put("pageTitle", messageSource.getMessage("pageTitles_/admin/Role/edit", null, localeResolver.resolveLocale(request)));
+        modelMap.put("selectedRoleBean", selectedRoleBean);
+        modelMap.put("fullPermissionList", namedPersistenceEntityService.getNamedEntityList(Permission.class.getName()));
+        modelMap.put("pageTitle", messageSource.getMessage("pageTitles_/admin/Role/edit"));
         return "/admin/editRole";
     }
 
     @Secured("ROLE_EditRole")
     @RequestMapping(value = "/Role/save", method = RequestMethod.POST)
-    public String saveRole(HttpServletRequest request, Map<String, Object> map,
-                           @Valid @ModelAttribute("selectedRoleBean") SelectedRoleBean selectedRoleBean, BindingResult result) {
-        if (request.getParameterMap().containsKey("cancel"))
+    public String saveRole(HttpServletRequest request,
+                           ModelMap modelMap,
+                           @Valid @ModelAttribute("selectedRoleBean") SelectedRoleBean selectedRoleBean,
+                           BindingResult result,
+                           @RequestParam(required = false, value = "cancel") String isCancel
+    ) {
+        if (isCancel != null)
             return "redirect:/admin/Role/entityList";
         Role role = selectedRoleBean.getRole();
         if (result.hasErrors()) {
-            map.put("fullPermissionList", namedPersistenceEntityService.getNamedEntityList(Permission.class.getName()));
+            modelMap.put("fullPermissionList", namedPersistenceEntityService.getNamedEntityList(Permission.class.getName()));
             return "/admin/editRole";
         }
         List<Permission> permissionList = permissionService.getReferencesByIds(selectedRoleBean.getPermissionIdsList());
@@ -151,60 +169,61 @@ public class AdminController {
             roleService.update(role);
         else
             roleService.create(role);
-        return namedEntityList("Role", map);
+        return namedEntityList("Role", modelMap);
     }
 
     @Secured("ROLE_EditRole")
     @RequestMapping("/Role/delete/{id}")
-    public String deleteRole(@PathVariable("id") long id, @ModelAttribute("entityListBean") NamedEntityListBean bean, Map<String, Object> map) {
+    public String deleteRole(@PathVariable("id") long id, @ModelAttribute("entityListBean") NamedEntityListBean bean) {
         roleService.delete(id);
         return "redirect:/admin/Role/entityList";
     }
 
-    @Autowired
-    private UserService userService;
-
     @Secured("ROLE_EditUser")
     @RequestMapping("/User/edit/{id}")
-    public String editUser(@PathVariable("id") long id, Map<String, Object> map, HttpServletRequest request, @ModelAttribute("userFormBean") UserFormBean userFormBean) {
+    public String editUser(
+            @PathVariable("id") long id,
+            ModelMap modelMap,
+            HttpServletRequest request,
+            @ModelAttribute("userFormBean") UserFormBean userFormBean
+    ) {
         User user;
         if (id > 0)
             user = userService.findById(id);
         else
             user = new User();
 
-        List<Long> roleIdsList = new ArrayList<Long>();
-        for (Role role : user.getRoleList()) {
-            roleIdsList.add(role.getId());
-        }
+        List<Long> roleIdsList = persistanceEntityUtils.toListLong(user.getRoleList());
 
         userFormBean.setUser(user);
         userFormBean.setRoleIdsList(roleIdsList);
 
-        map.put("userFormBean", userFormBean);
-        map.put("fullRoleList", namedPersistenceEntityService.getNamedEntityList(Role.class.getName()));
-        map.put("companyList", namedPersistenceEntityService.getNamedEntityList(Company.class.getName()));
+        modelMap.put("userFormBean", userFormBean);
+        modelMap.put("fullRoleList", namedPersistenceEntityService.getNamedEntityList(Role.class.getName()));
+        modelMap.put("companyList", namedPersistenceEntityService.getNamedEntityList(Company.class.getName()));
 
-        map.put("userFormAction", "/admin/User/save");
-        map.put("pageTitle", messageSource.getMessage("pageTitles_/admin/User/edit", null, localeResolver.resolveLocale(request)));
-        map.put("hidePassword", true);
+        modelMap.put("userFormAction", "/admin/User/save");
+        modelMap.put("pageTitle", messageSource.getMessage("pageTitles_/admin/User/edit"));
+        modelMap.put("hidePassword", true);
 
         return "/admin/editUser";
     }
 
-
     @Secured("ROLE_EditUser")
     @RequestMapping(value = "/User/save", method = RequestMethod.POST)
     @Transactional(propagation = Propagation.REQUIRED)
-    public String saveUser(HttpServletRequest request, Map<String, Object> map,
-                           @ModelAttribute("userFormBean") @Valid UserFormBean userFormBean, BindingResult result) {
-
-        if (request.getParameterMap().containsKey("cancel"))
+    public String saveUser(HttpServletRequest request,
+                           ModelMap modelMap,
+                           @ModelAttribute("userFormBean") @Valid UserFormBean userFormBean,
+                           BindingResult result,
+                           @RequestParam(required = false, value = "cancel") String isCancel
+    ) {
+        if (isCancel != null)
             return "redirect:/admin/User/entityList";
 
         User bakingUser = userFormBean.getUser();
         User user;
-        if (bakingUser.getId()!=null && bakingUser.getId() > 0) {
+        if (bakingUser.getId() != null && bakingUser.getId() > 0) {
             user = userService.findById(bakingUser.getId());
         } else {
             user = new User();
@@ -213,17 +232,16 @@ public class AdminController {
             userFormBean.setRepeatedPassword(generatedPassword);
         }
 
-        if (
-                (
-                        (bakingUser.getId()!=null && !(bakingUser.getId() > 0)) || !bakingUser.getLogin().equals(user.getLogin())
-                )
-                    && !userService.isLoginFree(bakingUser.getLogin())
-            ) {
+        boolean isExistedUser = (bakingUser.getId() != null && bakingUser.getId() > 0);
+        boolean isLoginValid = isExistedUser && bakingUser.getLogin().equals(user.getLogin())
+                || userService.isLoginFree(bakingUser.getLogin());
+
+        if (!isLoginValid) {
             result.addError(new FieldError("userFormBean", "user.login",
-                messageSource.getMessage("UnUniq.userFormBean.user.login", null, localeResolver.resolveLocale(request))));
+                    messageSource.getMessage("UnUniq.userFormBean.user.login")));
         }
         if (result.hasErrors()) {
-            map.put("fullRoleList", namedPersistenceEntityService.getNamedEntityList(Role.class.getName()));
+            modelMap.put("fullRoleList", namedPersistenceEntityService.getNamedEntityList(Role.class.getName()));
             return "/admin/editRole";
         }
 
@@ -241,12 +259,12 @@ public class AdminController {
         else
             userService.create(user);
 
-        return namedEntityList("User", map);
+        return namedEntityList("User", modelMap);
     }
 
     @Secured("ROLE_EditUser")
     @RequestMapping("/User/delete/{id}")
-    public String deleteUser(@PathVariable("id") long id, Map<String, Object> map) {
+    public String deleteUser(@PathVariable("id") long id) {
         userService.delete(id);
         return "redirect:/admin/User/entityList";
     }

@@ -25,7 +25,7 @@ public abstract class AbstractDao<ID extends Serializable, PEntity extends IPers
     protected EntityManager entityManager;
 
     @Transactional(readOnly = true, propagation = Propagation.NEVER)
-    public List<? extends PEntity> getEntityList(Class clazz){
+    public List<? extends PEntity> getEntityList(Class<PEntity> clazz){
         return entityManager.createQuery("from " + clazz.getName(), clazz).getResultList();
     }
 
@@ -45,27 +45,27 @@ public abstract class AbstractDao<ID extends Serializable, PEntity extends IPers
     public void  update(PEntity entity){
         entityManager.merge(entity);
     }
+
+
+
     @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
-    public void  delete(ID id, Class clazz){
-        PEntity entity = (PEntity) entityManager.getReference(clazz, id);
+    public void  delete(ID id, Class<PEntity> clazz){
+        PEntity entity = entityManager.getReference(clazz, id);
         entityManager.remove(entity);
     }
-    @Transactional(readOnly = true, propagation = Propagation.NEVER)
-    public PEntity findById(ID id, Class clazz){
-        return (PEntity) entityManager.find(clazz, id);
-    }
 
-    public EntityManager getEntityManager() {
-        return entityManager;
-    }
-    public void setEntityManager(EntityManager entityManager) {
-        this.entityManager = entityManager;
+
+
+
+    @Transactional(readOnly = true, propagation = Propagation.NEVER)
+    public PEntity findById(ID id, Class<PEntity> clazz){
+        return entityManager.find(clazz, id);
     }
 
 
     @Transactional(readOnly = true, propagation = Propagation.NEVER)
-    public List<PEntity> getReferencesByIds(List<Long> ids, Class clazz){
+    public List<PEntity> getReferencesByIds(List<Long> ids, Class<PEntity> clazz){
         return entityManager.createQuery("from " + clazz.getName()
-                + " c  where c.id in " + StringUtils.createIdsString(ids)).getResultList();
+                + " c  where c.id in " + StringUtils.createIdsString(ids), clazz).getResultList();
     }
 }

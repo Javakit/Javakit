@@ -32,6 +32,19 @@ public abstract class AbstractEntityService<ID extends Serializable, PEntity ext
         getDao().update(entity);
     }
 
+    @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
+    public void createOrUpdate(PEntity entity) {
+        boolean isNumber = entity.getId().getClass().equals(Long.class) || entity.getId().getClass().equals(Integer.class);
+        if (entity.getId()!=null && (!isNumber || (Long)entity.getId()>0)){
+            getDao().update(entity);
+        }
+        else
+        {
+            getDao().create(entity);
+        }
+    }
+
+
     @Transactional
     public void delete(ID id) {
         getDao().delete(id, getEntityClass());
@@ -44,9 +57,6 @@ public abstract class AbstractEntityService<ID extends Serializable, PEntity ext
 
     public List<PEntity>  getReferencesByIds(List<Long> ids){
         return getDao().getReferencesByIds(ids, getEntityClass());
-    }
-    public List<PEntity>  getReferencesByIds(List<Long> ids, Class clazz){
-        return getDao().getReferencesByIds(ids, clazz);
     }
 
 }
